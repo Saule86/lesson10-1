@@ -1,0 +1,153 @@
+a {
+  text-decoration: none;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+input[type=text] {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+p, h1, h2, h3, h4, h5, h6, body {
+  margin: 0;
+}
+
+.btn.orange {
+  color: #FF3D00;
+  border: 1px solid #FF3D00;
+  width: 100%;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.btn.orange:hover {
+  background-color: #FF3D00;
+  color: #fff;
+  cursor: pointer;
+}
+.btn.blue {
+  color: #0085FF;
+  border: 1px solid #0085FF;
+  width: 100%;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.btn.blue:hover {
+  background-color: #0085FF;
+  color: #fff;
+  cursor: pointer;
+}
+.btn.white {
+  color: #fff;
+  border: 1px solid #fff;
+  width: 100%;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.btn.white:hover {
+  background-color: #fff;
+  color: #fff;
+  cursor: pointer;
+  color: #0085FF;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 16px;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 14px;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+}
+p.context {
+  color: #808080;
+}
+
+body {
+  padding: 0 16px;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 0;
+}
+body header .burger-menu {
+  padding: 6px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+body header .burger-menu:hover {
+  background-color: plum;
+  cursor: pointer;
+}
+body header .burger-menu:active {
+  scale: 0.8;
+}
+body header .burger-menu .line {
+  width: 18px;
+  height: 2px;
+  background-color: #202020;
+  margin-bottom: 4px;
+}
+body header .burger-menu .line:last-child {
+  margin-bottom: 0;
+}
+body header h1 {
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+body header h1.active {
+  color: #EF5DA8;
+}
+body header h1:hover {
+  color: #FF3D00;
+}
+body header svg:first-child {
+  margin-right: 20px;
+}
+body header svg path {
+  transition: 0.5s;
+}
+body header svg path:hover {
+  fill: #FF3D00;
+}
+
+/*# sourceMappingURL=style.css.map */
